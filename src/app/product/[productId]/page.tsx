@@ -12,6 +12,7 @@ export const generateMetadata = async ({
             resolve(`iphone ${id}`);
         }, 100);
     });
+    
     return {
         title : `Product ${title}`,
     };
